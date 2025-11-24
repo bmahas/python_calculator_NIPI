@@ -4,7 +4,6 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
-# calculator_math.py
 
 def multiply(a, b):
     """

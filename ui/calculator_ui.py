@@ -47,9 +47,10 @@ class CalculatorUI:
                     a, b = map(float, self.expression.split(op))
                     func = {
                         "+": self.operations.add,
-                        "-": self.operations.subtract,
+                        "-": self.operations.sub,
                         "*": self.operations.multiply,
                         "/": self.operations.divide,
+                        "√": self.operations.sqrt,
                     }[op]
                     result = func(a, b)
                     self.expression = str(result)
