@@ -1,3 +1,4 @@
-from calculator_math import multiply, divide
-print(multiply(3, 4))
-print(divide(10, 2))
+from calculator_math import multiply, divide, sqrt
+print(multiply(12, 12))
+print(divide(10, 20))
+print(sqrt(5))
