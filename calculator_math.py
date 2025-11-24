@@ -1,9 +1,3 @@
-def add(a, b):
-    return a + b
-
-def sub(a, b):
-    return a - b
-
 # calculator_math.py
 
 def multiply(a, b):
@@ -28,4 +22,3 @@ def sqrt(a):
     if a == 0:
         raise ValueError("Cannot multiply by zero!")
     return a * a
-
