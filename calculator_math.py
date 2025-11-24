@@ -18,9 +18,7 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero!")
     return a / b
 def sqrt(a):
-    """
-    Returns the product of two numbers.
-    """
+
     if a == 0:
         raise ValueError("Cannot multiply by zero!")
     return a * a
